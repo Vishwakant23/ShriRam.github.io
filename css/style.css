@@ -346,19 +346,14 @@ footer{
    animation-name: blink;
    transition: 0.10s ease-in-out;
    margin-left: 15px;
-  
-  
   }
   .back h1{
     color: white;
     font-size: 20px;
-
   }
   .back p{
     font-size: 13px;
-
-  }
-  
+  }  
 }
 
 /* medium device */
@@ -395,13 +390,8 @@ footer{
    animation: blinkBtn 1s linear infinite;
    animation-name: blink;
    transition: 0.10s ease-in-out;
-  
-  
-  }
- 
-  
+  } 
 }
-
 @media screen and (min-width:1100px) and (max-width:1440px) {
   .stop{
     height: 170px;
@@ -433,11 +423,7 @@ footer{
    animation: blinkBtn 1s linear infinite;
    animation-name: blink;
    transition: 0.10s ease-in-out;
-  
-  
-  }
- 
-  
+  } 
 }
   
 
