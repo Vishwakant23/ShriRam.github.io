@@ -299,58 +299,84 @@ footer{
 
 
 
-  
-/* media query start */
-
-@media screen and (min-width:1px) and (max-width:700px) {
-  .back h1{
-    color: white;
-    text-align: center;
-
-  }
-  .back p{
-    color: white;
-    text-align: center;
-  }
-  .btn-primary{
-    margin-left: 180px;
-    background: transparent;
-    border: 1px solid white;
-  }
-  
-}
-
 /* medium device */
 
-/* 
-@media screen and (min-width:701px) and (max-width:1100px) {
-  ul li{
-      padding: 8px;
 
+@media screen and (min-width:701px) and (max-width:1100px) {
+  .stop{
+    height: 170px;
+    width: 100%;
+    background-color: #6d214f;
+    bottom: 0px;
+    position: sticky;
   }
-  ul li a{
-      font-size: 16px;
+  .stop h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
   }
-  h1{
-      font-size: 30px;
-  }
-  #banner{
-      height: 250px;
-  }
-  .Product{
-      width: 25%;
-      height: auto;
-  }
-  fieldset{
-      width: 60% !important;
-  }
-  #about{
-      
-      grid-template-columns: 50% 50%;
+  .stop button{
+    height: 40px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 10px 15px;
+   font-size: 20px;
+   background-color: #182c61;
+   color: white;
+   border: none;
+   margin: 3px 60px;
+   text-transform: uppercase;
+   width: 90%;
+   animation: blinkBtn 1s linear infinite;
+   animation-name: blink;
+   transition: 0.10s ease-in-out;
+  
+  
   }
  
   
-} */
+}
+
+@media screen and (min-width:1100px) and (max-width:1440px) {
+  .stop{
+    height: 170px;
+    width: 100%;
+    background-color: #6d214f;
+    bottom: 0px;
+    position: sticky;
+  }
+  .stop h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+    margin: 0px;
+  }
+  .stop button{
+    height: 40px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 10px 15px;
+   font-size: 20px;
+   background-color: #182c61;
+   color: white;
+   border: none;
+   margin: 3px 60px;
+   text-transform: uppercase;
+   width: 90%;
+   animation: blinkBtn 1s linear infinite;
+   animation-name: blink;
+   transition: 0.10s ease-in-out;
+  
+  
+  }
+ 
+  
+}
   
 
   
