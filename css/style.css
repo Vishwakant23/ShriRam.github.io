@@ -300,7 +300,7 @@ footer{
     background-color: #6d214f;
     bottom: 0px;
     position: sticky;
-    display: none;
+    display: none !important;
   }
 }
   
