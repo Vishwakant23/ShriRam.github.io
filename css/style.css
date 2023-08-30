@@ -23,7 +23,7 @@ body {
     align-items: center;
     
 
- }
+  }
   .back h1{
     color: white;
 
@@ -291,14 +291,18 @@ footer{
 }
 
 
+/* media query start */
 
-
-
-
-
-
-
-
+@media screen and (min-width:1px) and (max-width:320px) {
+  .stop{
+    height: 190px;
+    width: 100%;
+    background-color: #6d214f;
+    bottom: 0px;
+    position: sticky;
+    display: none;
+  }
+}
   
 /* media query start */
 
@@ -441,16 +445,4 @@ footer{
  
   
 }
-/* media query start */
-
-@media screen and (min-width:1px) and (max-width:320px) {
   
-  .stop{
-    height: 190px;
-    width: 100%;
-    background-color: #6d214f;
-    bottom: 0px;
-    position: sticky;
-    display: none;
-  }
-}
