@@ -297,7 +297,69 @@ footer{
 
 
 
+  
+/* media query start */
 
+@media screen and (min-width:1px) and (max-width:700px) {
+  .back h1{
+    color: white;
+    text-align: center;
+
+  }
+  .back p{
+    color: white;
+    text-align: center;
+  }
+  .btn-primary{
+    margin-left: 180px;
+    background: transparent;
+    border: 1px solid white;
+  }
+  .stop{
+    height: 190px;
+    width: 100%;
+    background-color: #6d214f;
+    bottom: 0px;
+    position: sticky;
+  }
+  .stop h4{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-family:monospace;
+    margin: 0px;
+  }
+  .stop button{
+    height: 35px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 5px 15px;
+   font-size: 20px;
+   background-color: #182c61;
+   color: white;
+   border: none;
+   margin: 3px 60px;
+   text-transform: uppercase;
+   width: 90%;
+   animation: blinkBtn 1s linear infinite;
+   animation-name: blink;
+   transition: 0.10s ease-in-out;
+   margin-left: 15px;
+  
+  
+  }
+  .back h1{
+    color: white;
+    font-size: 20px;
+
+  }
+  .back p{
+    font-size: 13px;
+
+  }
+  
+}
 
 /* medium device */
 
@@ -377,6 +439,9 @@ footer{
  
   
 }
+  
+
+
   
 
   
